@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const API_BASE_URL = "http://localhost:5000/api/v1/admin";
-const BASE_URL = "http://localhost:5000/api/v1";
+const API_BASE_URL = "https://ladx.onrender.com/api/v1/admin";
+const BASE_URL = "https://ladx.onrender.com/api/v1";
 
 // Helper function to get the admin token
 const getAdminToken = (): string | null => {

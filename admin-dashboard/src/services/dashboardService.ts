@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = 'http://localhost:5000/api/v1/dashboard';
+const API_BASE_URL = 'https://ladx.onrender.com/api/v1/dashboard';
 
 // Fetch the number of travelers
 export const fetchTravelersCount = async (): Promise<number> => {

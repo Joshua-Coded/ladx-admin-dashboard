@@ -11,7 +11,7 @@ const AdminLogin: React.FC = () => {
     const handleLogin = async (e: React.FormEvent) => {
         e.preventDefault();
         try {
-            const response = await axios.post('http://localhost:5000/api/v1/admin/login', {
+            const response = await axios.post('https://ladx.onrender.com/api/v1/admin/login', {
                 username,
                 password,
             });

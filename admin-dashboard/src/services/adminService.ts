@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const ADMIN_API_URL = "http://localhost:5000/api/v1/admin";
-const ORDERS_API_URL = "http://localhost:5000/api/v1/orders";
+const ADMIN_API_URL = "https://ladx.onrender.com/api/v1/admin";
+const ORDERS_API_URL = "https://ladx.onrender.com/api/v1/orders";
 
 const getToken = () => localStorage.getItem("adminToken");
 
